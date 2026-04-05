@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+#formcol1 li {
+    list-style: none;
+}
+
+#formcol1 input.reqfield {
+    background: #FF9;
+}
+
+label {
+    margin-right: .3em;
+    width: 6em;
+    display: inline-block;
+    text-align: right;
+}
+
+#multchoice label {
+    width: auto;
+    text-align: left;
+    display: inline;
+}
+
+input:focus, input:active, select:focus {
+    background-color: #BB3D2F;
+    color: #FFF;
+}
+
+#multchoice input {
+    margin-left: 5px;
+}
+
+/* end of form css */
+	
